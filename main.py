@@ -26,7 +26,6 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 '''
 command_list='''
 [1] OPEN GF FINDER PRIMIUM
-[2] OPEN GF FINDER TOOL 
 [3] EXIT PROGRAM
 '''
 url ='https://www.github.com/cybercop-404'
@@ -53,7 +52,7 @@ elif pass_ok =='119887':
         print(command_list)
         CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
         if CHOICE =='1':
-            os.system('python auto_share.py')
+            os.system('python g.py')
         elif CHOICE=='2':
             break
         else:
